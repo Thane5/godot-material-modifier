@@ -62,10 +62,9 @@ __meta__ = {
 }
 
 [node name="InspectorBG" type="Panel" parent="."]
-anchor_top = -0.00204918
 anchor_right = 1.0
 anchor_bottom = 0.672
-margin_top = 31.0
+margin_top = 30.0
 margin_bottom = -3.93604
 size_flags_vertical = 3
 custom_styles/panel = ExtResource( 9 )
