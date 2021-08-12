@@ -16,7 +16,7 @@ config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/multi_material_modifier/plugin.cfg" )
+enabled=PackedStringArray()
 
 [physics]
 
