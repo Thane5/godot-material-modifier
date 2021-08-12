@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://ba3lpj0i8vf81"]
+[gd_scene load_steps=17 format=3 uid="uid://ba3lpj0i8vf81"]
 
 [ext_resource type="Script" path="res://addons/multi_material_modifier/Inspector/Albedo.gd" id="1"]
 [ext_resource type="Script" path="res://addons/multi_material_modifier/CustomIcon.gd" id="2"]
@@ -12,17 +12,17 @@
 [ext_resource type="StyleBox" path="res://addons/multi_material_modifier/Inspector/ExpandArea_header.tres" id="10"]
 [ext_resource type="Texture2D" uid="uid://dx3vrk6sv04ue" path="res://icon.png" id="11"]
 
-[sub_resource type="Image" id="Image_g4y0e"]
+[sub_resource type="Image" id="Image_bujfx"]
 data = {
-"data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
-"format": "LumAlpha8",
+"data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
+"format": "RGBA8",
 "height": 16,
 "mipmaps": false,
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id="10"]
-image = SubResource( "Image_g4y0e" )
+[sub_resource type="ImageTexture" id="ImageTexture_m2r7a"]
+image = SubResource( "Image_bujfx" )
 size = Vector2(16, 16)
 
 [sub_resource type="ImageTexture" id="6"]
@@ -31,12 +31,10 @@ size = Vector2(16, 16)
 
 [sub_resource type="ImageTexture" id="8"]
 
-[sub_resource type="StyleBoxFlat" id="4"]
-bg_color = Color(0.2, 0.2, 0.2, 1)
-
 [node name="Material Modifier" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_right = -705.0
 script = ExtResource( "7" )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -46,7 +44,10 @@ previewAreaPath = NodePath("VBoxContainer/ScrollContainer/Main VContainer/T2M Co
 loadPath = NodePath("VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area/LoadPath")
 
 [node name="FileDialog Mat" type="FileDialog" parent="."]
-mode = 1
+title = "Open File(s)"
+size = Vector2i(700, 600)
+min_size = Vector2i(650, 500)
+file_mode = 1
 filters = PackedStringArray("*.material", "*.tres")
 script = null
 __meta__ = {
@@ -54,8 +55,10 @@ __meta__ = {
 }
 
 [node name="InspectorBG" type="Panel" parent="."]
+anchor_top = -0.015
 anchor_right = 1.0
-anchor_bottom = 0.672
+anchor_bottom = 0.671667
+offset_top = 40.0
 size_flags_vertical = 3
 theme_override_styles/panel = ExtResource( "9" )
 script = null
@@ -66,14 +69,16 @@ __meta__ = {
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 0.672
+offset_top = 33.0
+offset_bottom = -0.199982
 script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
-offset_right = 1024.0
-offset_bottom = 403.0
+offset_right = 319.0
+offset_bottom = 370.0
 rect_min_size = Vector2(0, 50)
 size_flags_vertical = 7
 scroll_horizontal_enabled = false
@@ -83,8 +88,8 @@ __meta__ = {
 }
 
 [node name="Main VContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer"]
-offset_right = 1024.0
-offset_bottom = 403.0
+offset_right = 319.0
+offset_bottom = 370.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 script = null
@@ -94,15 +99,22 @@ __meta__ = {
 
 [node name="T2M Container" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer"]
 visible = false
+offset_right = 1012.0
+offset_bottom = 203.0
 script = null
 
 [node name="Path Area" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
+offset_right = 1012.0
+offset_bottom = 33.0
 script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
+offset_top = 3.0
+offset_right = 35.0
+offset_bottom = 29.0
 text = "Path"
 structured_text_bidi_override_options = []
 script = null
@@ -111,6 +123,9 @@ __meta__ = {
 }
 
 [node name="LoadPath" type="LineEdit" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
+offset_left = 39.0
+offset_right = 984.0
+offset_bottom = 33.0
 size_flags_horizontal = 3
 text = "res://icon.png"
 structured_text_bidi_override_options = []
@@ -120,6 +135,9 @@ __meta__ = {
 }
 
 [node name="BrowseFiles" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
+offset_left = 988.0
+offset_right = 1012.0
+offset_bottom = 33.0
 text = "..."
 script = null
 __meta__ = {
@@ -127,6 +145,9 @@ __meta__ = {
 }
 
 [node name="Preview" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
+offset_top = 37.0
+offset_right = 1012.0
+offset_bottom = 66.0
 text = "Preview"
 script = null
 __meta__ = {
@@ -134,9 +155,14 @@ __meta__ = {
 }
 
 [node name="Info Area" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
+offset_top = 70.0
+offset_right = 1012.0
+offset_bottom = 170.0
 script = null
 
 [node name="Panel" type="Panel" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
+offset_right = 100.0
+offset_bottom = 100.0
 rect_min_size = Vector2(100, 100)
 script = null
 __meta__ = {
@@ -155,10 +181,15 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
+offset_left = 104.0
+offset_right = 1008.0
+offset_bottom = 100.0
 size_flags_horizontal = 3
 script = null
 
 [node name="NameLabel" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/VBoxContainer"]
+offset_right = 904.0
+offset_bottom = 26.0
 text = "Material Name:"
 structured_text_bidi_override_options = []
 script = null
@@ -167,6 +198,9 @@ __meta__ = {
 }
 
 [node name="Name" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/VBoxContainer"]
+offset_top = 30.0
+offset_right = 904.0
+offset_bottom = 53.0
 structured_text_bidi_override_options = []
 script = null
 __meta__ = {
@@ -174,12 +208,18 @@ __meta__ = {
 }
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
+offset_left = 1012.0
+offset_right = 1012.0
+offset_bottom = 100.0
 script = null
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Create" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
+offset_top = 174.0
+offset_right = 1012.0
+offset_bottom = 203.0
 text = "Create Material"
 script = null
 __meta__ = {
@@ -187,14 +227,14 @@ __meta__ = {
 }
 
 [node name="MatModifier Container" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer"]
-offset_right = 1024.0
+offset_right = 319.0
 offset_bottom = 211.0
 script = ExtResource( "8" )
 MaterialPathArea = NodePath("../../../../Material Path Area")
 textEditPath = NodePath("../../../../TextEdit")
 
 [node name="MaterialProperties" type="MarginContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container"]
-offset_right = 1024.0
+offset_right = 319.0
 offset_bottom = 211.0
 theme_override_constants/margin_right = 4
 theme_override_constants/margin_top = 4
@@ -205,16 +245,18 @@ script = null
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties"]
 offset_left = 4.0
 offset_top = 4.0
-offset_right = 1020.0
+offset_right = 315.0
 offset_bottom = 207.0
 theme_override_constants/separation = 0
 script = null
 
 [node name="Albedo Collapse" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 23.0
 rect_min_size = Vector2(0, 22)
+theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -224,7 +266,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Albedo"
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -234,7 +276,7 @@ ExpandAreaPath = NodePath("../Albedo Panel")
 
 [node name="Albedo Panel" type="PanelContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
 offset_top = 23.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 54.0
 theme_override_styles/panel = ExtResource( "9" )
 script = ExtResource( "1" )
@@ -243,7 +285,7 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 31.0
 script = null
 __meta__ = {
@@ -251,7 +293,7 @@ __meta__ = {
 }
 
 [node name="Albedo Value" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 31.0
 script = null
 __meta__ = {
@@ -259,28 +301,20 @@ __meta__ = {
 }
 
 [node name="Albedo_CheckBox" type="CheckBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value"]
-offset_right = 490.0
+offset_right = 137.0
 offset_bottom = 31.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
 text = "Albedo"
 script = null
 
-[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value"]
-visible = false
-self_modulate = Color(1, 1, 1, 0)
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Color_Reset" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value"]
-offset_left = 494.0
-offset_right = 522.0
+offset_left = 141.0
+offset_right = 169.0
 offset_bottom = 31.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -289,8 +323,8 @@ __meta__ = {
 customIcon = "Reload"
 
 [node name="ColorPickerButton" type="ColorPickerButton" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value"]
-offset_left = 526.0
-offset_right = 1016.0
+offset_left = 173.0
+offset_right = 311.0
 offset_bottom = 31.0
 focus_mode = 0
 size_flags_horizontal = 3
@@ -300,10 +334,12 @@ script = null
 
 [node name="Metallic Collapse" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
 offset_top = 54.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 77.0
 rect_min_size = Vector2(0, 22)
+theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -313,7 +349,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Metallic"
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -323,7 +359,7 @@ ExpandAreaPath = NodePath("../Metallic Panel")
 
 [node name="Metallic Panel" type="PanelContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
 offset_top = 77.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 147.0
 theme_override_styles/panel = ExtResource( "9" )
 script = ExtResource( "3" )
@@ -332,7 +368,7 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 70.0
 script = null
 __meta__ = {
@@ -340,7 +376,7 @@ __meta__ = {
 }
 
 [node name="Metallic Value" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -348,7 +384,7 @@ __meta__ = {
 }
 
 [node name="Metallic" type="CheckBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
-offset_right = 445.0
+offset_right = 96.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
@@ -357,8 +393,8 @@ script = null
 
 [node name="VSeparator2" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
 self_modulate = Color(1, 1, 1, 0)
-offset_left = 449.0
-offset_right = 453.0
+offset_left = 100.0
+offset_right = 104.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -366,9 +402,9 @@ __meta__ = {
 }
 
 [node name="Metallic_Slider" type="HSlider" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
-offset_left = 457.0
+offset_left = 108.0
 offset_top = 8.0
-offset_right = 902.0
+offset_right = 205.0
 offset_bottom = 24.0
 size_flags_horizontal = 3
 size_flags_vertical = 4
@@ -380,23 +416,13 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VSeparator" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
-self_modulate = Color(1, 1, 1, 0)
-offset_left = 906.0
-offset_right = 910.0
-offset_bottom = 33.0
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Metallic_Reset" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
-offset_left = 914.0
-offset_right = 942.0
+offset_left = 209.0
+offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -405,8 +431,8 @@ __meta__ = {
 customIcon = "Reload"
 
 [node name="Metallic_SpinBox" type="SpinBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Metallic Value"]
-offset_left = 946.0
-offset_right = 1016.0
+offset_left = 241.0
+offset_right = 311.0
 offset_bottom = 33.0
 theme_override_icons/updown = SubResource( "6" )
 max_value = 1.0
@@ -416,7 +442,7 @@ script = null
 
 [node name="Specular Value" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer"]
 offset_top = 37.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 70.0
 script = null
 __meta__ = {
@@ -424,7 +450,7 @@ __meta__ = {
 }
 
 [node name="Specular" type="CheckBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
-offset_right = 445.0
+offset_right = 96.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
@@ -433,8 +459,8 @@ script = null
 
 [node name="VSeparator2" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
 self_modulate = Color(1, 1, 1, 0)
-offset_left = 449.0
-offset_right = 453.0
+offset_left = 100.0
+offset_right = 104.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -442,9 +468,9 @@ __meta__ = {
 }
 
 [node name="Specular_Slider" type="HSlider" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
-offset_left = 457.0
+offset_left = 108.0
 offset_top = 8.0
-offset_right = 902.0
+offset_right = 205.0
 offset_bottom = 24.0
 size_flags_horizontal = 3
 size_flags_vertical = 4
@@ -456,22 +482,12 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VSeparator" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
-self_modulate = Color(1, 1, 1, 0)
-offset_left = 906.0
-offset_right = 910.0
-offset_bottom = 33.0
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Specular_Reset" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
-offset_left = 914.0
-offset_right = 942.0
+offset_left = 209.0
+offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -480,8 +496,8 @@ __meta__ = {
 customIcon = "Reload"
 
 [node name="Specular_SpinBox" type="SpinBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Metallic Panel/VBoxContainer/Specular Value"]
-offset_left = 946.0
-offset_right = 1016.0
+offset_left = 241.0
+offset_right = 311.0
 offset_bottom = 33.0
 theme_override_icons/updown = SubResource( "7" )
 max_value = 1.0
@@ -491,11 +507,13 @@ script = null
 
 [node name="Roughness Collapse" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
 offset_top = 147.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 170.0
 rect_min_size = Vector2(0, 22)
 focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -505,7 +523,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Roughness"
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -515,7 +533,7 @@ ExpandAreaPath = NodePath("../Roughness Panel")
 
 [node name="Roughness Panel" type="PanelContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer"]
 offset_top = 170.0
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 203.0
 theme_override_styles/panel = ExtResource( "9" )
 script = ExtResource( "6" )
@@ -524,7 +542,7 @@ __meta__ = {
 }
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -532,7 +550,7 @@ __meta__ = {
 }
 
 [node name="Roughness Value" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer"]
-offset_right = 1016.0
+offset_right = 311.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -540,7 +558,7 @@ __meta__ = {
 }
 
 [node name="Roughness_CheckBox" type="CheckBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
-offset_right = 445.0
+offset_right = 112.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
@@ -549,8 +567,8 @@ script = null
 
 [node name="VSeparator2" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
 self_modulate = Color(1, 1, 1, 0)
-offset_left = 449.0
-offset_right = 453.0
+offset_left = 116.0
+offset_right = 120.0
 offset_bottom = 33.0
 script = null
 __meta__ = {
@@ -558,9 +576,9 @@ __meta__ = {
 }
 
 [node name="Roughness_Slider" type="HSlider" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
-offset_left = 457.0
+offset_left = 124.0
 offset_top = 8.0
-offset_right = 902.0
+offset_right = 205.0
 offset_bottom = 24.0
 size_flags_horizontal = 3
 size_flags_vertical = 4
@@ -572,22 +590,12 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="VSeparator" type="VSeparator" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
-self_modulate = Color(1, 1, 1, 0)
-offset_left = 906.0
-offset_right = 910.0
-offset_bottom = 33.0
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="Roughness_Reset" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
-offset_left = 914.0
-offset_right = 942.0
+offset_left = 209.0
+offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -596,8 +604,8 @@ __meta__ = {
 customIcon = "Reload"
 
 [node name="Roughness_SpinBox" type="SpinBox" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/VBoxContainer/Roughness Value"]
-offset_left = 946.0
-offset_right = 1016.0
+offset_left = 241.0
+offset_right = 311.0
 offset_bottom = 33.0
 theme_override_icons/updown = SubResource( "8" )
 max_value = 1.0
@@ -617,6 +625,8 @@ __meta__ = {
 anchor_top = 0.672
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_top = -0.199982
+offset_bottom = -33.0
 hint_tooltip = "Examples:
 \"roughness=0\" (float)
 \"albedo_color=478cc0\" (color)
@@ -654,7 +664,7 @@ __meta__ = {
 
 [node name="LoadPath" type="LineEdit" parent="Material Path Area"]
 offset_left = 67.0
-offset_right = 992.0
+offset_right = 287.0
 offset_bottom = 33.0
 size_flags_horizontal = 3
 structured_text_bidi_override_options = []
@@ -665,43 +675,35 @@ __meta__ = {
 }
 
 [node name="OpenButton" type="Button" parent="Material Path Area"]
-offset_left = 996.0
-offset_right = 1024.0
+offset_left = 291.0
+offset_right = 319.0
 offset_bottom = 33.0
-icon = SubResource( "10" )
+icon = SubResource( "ImageTexture_m2r7a" )
 script = ExtResource( "2" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 customIcon = "Folder"
 
-[node name="ModifyButtonBG" type="Panel" parent="."]
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-rect_pivot_offset = Vector2(278, 10)
-theme_override_styles/panel = SubResource( "4" )
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-theme_override_constants/margin_top = 6
-theme_override_constants/margin_bottom = 6
+offset_left = -70.5
+offset_top = -33.0
+offset_right = 70.5
+theme_override_constants/margin_top = 4
 script = null
 __meta__ = {
+"_edit_group_": true,
 "_edit_use_anchors_": false
 }
 
 [node name="Modify" type="Button" parent="MarginContainer"]
-offset_top = 6.0
+offset_top = 4.0
 offset_right = 141.0
-offset_bottom = 35.0
+offset_bottom = 33.0
 text = "Modify Materials"
 script = null
 __meta__ = {
