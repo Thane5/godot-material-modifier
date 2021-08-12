@@ -1,9 +1,9 @@
-tool
+@tool
 extends Control
 
-export(NodePath) var nameLabelPath
-export(NodePath) var previewAreaPath
-export(NodePath) var loadPath
+@export var nameLabelPath: NodePath
+@export var previewAreaPath: NodePath
+@export var loadPath: NodePath
 
 var currentResourcePath = "res://SomeMat1.material"
 var currentResource
@@ -33,7 +33,7 @@ func _on_Preview_pressed():
 
 func _on_Create_pressed():
 	#	create new material and apply the currentRessource as albedo
-	var myMaterial = SpatialMaterial.new()
+	var myMaterial = StandardMaterial3D.new()
 	currentResource = load(currentResourcePath)
 	myMaterial.albedo_texture = currentResource
 	

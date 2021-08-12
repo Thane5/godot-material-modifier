@@ -1,9 +1,8 @@
-tool
+@tool
 extends HBoxContainer
 
-export(NodePath) var fileDialogPath
-var multiMode
-export(NodePath) var MatModifier
+@export var fileDialogPath: NodePath
+@export var MatModifier: NodePath
 
 
 

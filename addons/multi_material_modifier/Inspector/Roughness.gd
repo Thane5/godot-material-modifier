@@ -1,15 +1,11 @@
-tool
+@tool
 extends PanelContainer
 
-var roughness = 1
+const ROUGHNESS_DEFAULT = 1
+
+var roughness = ROUGHNESS_DEFAULT
 var active = false
-enum VALUE_MODES {
-	floatMode,
-	colorMode,
-	textureMode
-}
-export(VALUE_MODES ) var currentMode
-export(String) var valueName
+
 
 
 
@@ -35,9 +31,7 @@ func _on_Roughness_SpinBox_value_changed(value):
 	roughness = value
 
 
-
-
-
+#	Restore defaults
 func _on_Roughness_Reset_pressed():
-	get_node("VBoxContainer/Roughness Value/Roughness_Slider").set_value(1)
-	get_node("VBoxContainer/Roughness Value/Roughness_SpinBox").set_value(1)
+	get_node("VBoxContainer/Roughness Value/Roughness_Slider").set_value(ROUGHNESS_DEFAULT)
+	get_node("VBoxContainer/Roughness Value/Roughness_SpinBox").set_value(ROUGHNESS_DEFAULT)

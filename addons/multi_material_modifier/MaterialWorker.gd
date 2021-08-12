@@ -1,12 +1,12 @@
-tool
+@tool
 extends VBoxContainer
 
 
 const ALBEDO_PANEL_PATH = "MaterialProperties/VBoxContainer/Albedo Panel"
 const METALLIC_PANEL_PATH = "MaterialProperties/VBoxContainer/Metallic Panel"
 const ROUGHNESS_PANEL_PATH = "MaterialProperties/VBoxContainer/Roughness Panel"
-export(NodePath) var MaterialPathArea
-export(NodePath) var textEditPath
+@export var MaterialPathArea: NodePath
+@export var textEditPath: NodePath
 
 
 var albedoPanel
@@ -19,7 +19,7 @@ var changeCounter = 0
 
 
 func _on_Modify_pressed():
-	if currentResourcePath != null:
+	if typeof(currentResourcePath) == TYPE_STRING_ARRAY:
 		_modify_materials()
 	else:
 		print("No material selected")

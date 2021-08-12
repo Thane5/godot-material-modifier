@@ -1,1 +1,3 @@
 res://addons/multi_material_modifier/MaterialModifier_Dock.tscn
+res://addons/multi_material_modifier/MaterialWorker.gd
+res://new_standard_material_3d.tres

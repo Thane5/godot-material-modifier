@@ -1,28 +1,17 @@
-tool
+@tool
 extends PanelContainer
 
-var metallicValue = 1
-var specularValue = 0.5
+const METALLIC_DEFAULT = 1
+const SPECULAR_DEFAULT = 0.5
+
+var metallicValue = METALLIC_DEFAULT
+var specularValue = SPECULAR_DEFAULT
+
 var metallicActive = false
 var specularActive = false
-enum VALUE_MODES {
-	floatMode,
-	colorMode,
-	textureMode
-}
-export(VALUE_MODES ) var currentMode
-export(String) var valueName
 
 
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
 
 func _on_Metallic_toggled(button_pressed):
 	metallicActive = button_pressed
@@ -51,12 +40,12 @@ func _on_Specular_SpinBox_value_changed(value):
 	get_node("VBoxContainer/Specular Value/Specular_Slider").set_value(value)
 	specularValue = value
 
-
+#	Restore defaults on metallic
 func _on_Metallic_Reset_pressed():
-	get_node("VBoxContainer/Metallic Value/Metallic_Slider").set_value(1)
-	get_node("VBoxContainer/Metallic Value/Metallic_SpinBox").set_value(1)
+	get_node("VBoxContainer/Metallic Value/Metallic_Slider").set_value(METALLIC_DEFAULT)
+	get_node("VBoxContainer/Metallic Value/Metallic_SpinBox").set_value(METALLIC_DEFAULT)
 
-
+#	Restore defaults on specular
 func _on_Specular_Reset_pressed():
-	get_node("VBoxContainer/Specular Value/Specular_Slider").set_value(0.5)
-	get_node("VBoxContainer/Specular Value/Specular_SpinBox").set_value(0.5)
+	get_node("VBoxContainer/Specular Value/Specular_Slider").set_value(SPECULAR_DEFAULT)
+	get_node("VBoxContainer/Specular Value/Specular_SpinBox").set_value(SPECULAR_DEFAULT)
