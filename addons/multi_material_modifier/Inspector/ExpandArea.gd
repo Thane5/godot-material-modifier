@@ -2,19 +2,6 @@
 extends Button
 
 @export var ExpandAreaPath: NodePath
-
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-#func _enter_tree():
-#	icon = get_theme_icon('GuiTreeArrowDown', 'EditorIcons')
-#	set_button_icon(icon)
-#	var ExpandArea = get_node(ExpandAreaPath)
-#	ExpandArea.set_visible(true)
 	
 func _enter_tree():
 	icon = get_theme_icon('GuiTreeArrowDown', 'EditorIcons')
