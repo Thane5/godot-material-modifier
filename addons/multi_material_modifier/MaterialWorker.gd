@@ -19,7 +19,7 @@ var changeCounter = 0
 
 
 func _on_Modify_pressed():
-	if currentResourcePath != null:
+	if typeof(currentResourcePath) == TYPE_STRING_ARRAY:
 		_modify_materials()
 	else:
 		print("No material selected")
@@ -50,12 +50,15 @@ func _modify_materials():
 			currentResource.roughness = roughnessPanel.roughness
 			changeCounter = changeCounter+1
 			
+		var textField = get_node(textEditPath)
+		var typedProperties = textField.text.strip_edges().split("\n")
 		#	Apply parameters set through the command line
-		if get_node(textEditPath).text != null:
-			var textField = get_node(textEditPath)
-
+		if textField.text == null:
+			#print("TextField is empty")
+			pass
+		else:	
 			var properties = textField.text.strip_edges().split("\n")
-			for property in properties:
+			for property in typedProperties:
 				var propertyArray = (property.split("="))
 				var propertyName = propertyArray[0]
 				#var propertyValue = propertyArray[1]
@@ -173,8 +176,10 @@ func _modify_materials():
 					"vertex_color_use_as_albedo": currentResource.vertex_color_use_as_albedo = bool(propertyValue)
 
 
-					_: print("Invalid material parameter: ", propertyName)
-						
+					_: 
+						print("Invalid material parameter: ", propertyName)
+						#	subtract 1 so that it reports zero changes at the end
+						changeCounter = changeCounter-1
 				changeCounter = changeCounter+1
 
 	#	Determine the amound of material changes done by 
