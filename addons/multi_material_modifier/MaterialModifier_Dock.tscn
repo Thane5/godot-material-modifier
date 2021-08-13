@@ -9,7 +9,7 @@
 [ext_resource type="Script" path="res://addons/multi_material_modifier/Inspector/Roughness.gd" id="6"]
 [ext_resource type="Script" path="res://addons/multi_material_modifier/MaterialWorker.gd" id="8"]
 
-[sub_resource type="Image" id="Image_j81de"]
+[sub_resource type="Image" id="Image_aps4o"]
 data = {
 "data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 "format": "RGBA8",
@@ -18,8 +18,8 @@ data = {
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_lux1n"]
-image = SubResource( "Image_j81de" )
+[sub_resource type="ImageTexture" id="ImageTexture_sv7m3"]
+image = SubResource( "Image_aps4o" )
 size = Vector2(16, 16)
 
 [sub_resource type="ImageTexture" id="6"]
@@ -118,16 +118,17 @@ offset_right = 312.0
 offset_bottom = 29.0
 rect_min_size = Vector2(0, 22)
 focus_mode = 0
-theme_override_colors/icon_pressed_color = Color(0.941176, 0.960784, 1, 1)
-theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_normal_color = Color(0.941176, 0.960784, 1, 1)
-theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
-theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Albedo"
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 align = 0
 script = ExtResource( "5" )
@@ -188,7 +189,7 @@ offset_right = 163.0
 offset_bottom = 31.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -212,16 +213,17 @@ offset_right = 312.0
 offset_bottom = 103.0
 rect_min_size = Vector2(0, 22)
 focus_mode = 0
-theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_normal_color = Color(0.941176, 0.960784, 1, 1)
-theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
-theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Metallic"
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 align = 0
 script = ExtResource( "5" )
@@ -307,7 +309,7 @@ offset_right = 224.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -372,7 +374,7 @@ offset_left = 196.0
 offset_right = 224.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -396,16 +398,17 @@ offset_right = 312.0
 offset_bottom = 216.0
 rect_min_size = Vector2(0, 22)
 focus_mode = 0
-theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
-theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_colors/icon_normal_color = Color(0.941176, 0.960784, 1, 1)
-theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
-theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
 toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Roughness"
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 align = 0
 script = ExtResource( "5" )
@@ -490,7 +493,7 @@ offset_left = 196.0
 offset_right = 224.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -565,7 +568,7 @@ __meta__ = {
 offset_left = 292.0
 offset_right = 320.0
 offset_bottom = 33.0
-icon = SubResource( "ImageTexture_lux1n" )
+icon = SubResource( "ImageTexture_sv7m3" )
 script = ExtResource( "2" )
 __meta__ = {
 "_edit_use_anchors_": false

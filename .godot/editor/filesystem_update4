@@ -1,4 +1,3 @@
-res://Material_A.tres
+res://addons/multi_material_modifier/FileLoader.gd
 res://addons/multi_material_modifier/Inspector/ExpandArea.gd
 res://addons/multi_material_modifier/MaterialModifier_Dock.tscn
-res://addons/multi_material_modifier/MaterialWorker.gd
