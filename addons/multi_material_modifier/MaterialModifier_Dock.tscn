@@ -578,5 +578,5 @@ __meta__ = {
 [connection signal="value_changed" from="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/Roughness Category/Roughness Value/Roughness_SpinBox" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel" method="_on_Roughness_SpinBox_value_changed"]
 [connection signal="text_changed" from="Material Path Area/LoadPath" to="Material Path Area" method="_on_LoadPath_text_changed"]
 [connection signal="pressed" from="Material Path Area/OpenButton" to="Material Path Area" method="_on_OpenButton_pressed"]
-[connection signal="pressed" from="MarginContainer/Modify" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container" method="_on_Modify_pressed"]
 [connection signal="pressed" from="MarginContainer/Modify" to="." method="_on_Modify_pressed"]
+[connection signal="pressed" from="MarginContainer/Modify" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container" method="_on_Modify_pressed"]
