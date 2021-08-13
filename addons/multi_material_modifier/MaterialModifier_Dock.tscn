@@ -8,11 +8,10 @@
 [ext_resource type="Script" path="res://addons/multi_material_modifier/Inspector/Roughness.gd" id="6"]
 [ext_resource type="Script" path="res://addons/multi_material_modifier/ControlRoot.gd" id="7"]
 [ext_resource type="Script" path="res://addons/multi_material_modifier/MaterialWorker.gd" id="8"]
-[ext_resource type="StyleBox" path="res://addons/multi_material_modifier/Inspector/ExpandArea_BG.tres" id="9"]
-[ext_resource type="StyleBox" path="res://addons/multi_material_modifier/Inspector/ExpandArea_header.tres" id="10"]
-[ext_resource type="Texture2D" uid="uid://dx3vrk6sv04ue" path="res://icon.png" id="11"]
+[ext_resource type="StyleBox" uid="uid://dbcgckda0pcnm" path="res://addons/multi_material_modifier/Inspector/ExpandArea_BG.tres" id="9"]
+[ext_resource type="StyleBox" uid="uid://ppaup3xoeomr" path="res://addons/multi_material_modifier/Inspector/ExpandArea_header.tres" id="10"]
 
-[sub_resource type="Image" id="Image_bujfx"]
+[sub_resource type="Image" id="Image_i7g81"]
 data = {
 "data": PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 "format": "RGBA8",
@@ -21,8 +20,8 @@ data = {
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id="ImageTexture_m2r7a"]
-image = SubResource( "Image_bujfx" )
+[sub_resource type="ImageTexture" id="ImageTexture_c7lo6"]
+image = SubResource( "Image_i7g81" )
 size = Vector2(16, 16)
 
 [sub_resource type="ImageTexture" id="6"]
@@ -30,6 +29,9 @@ size = Vector2(16, 16)
 [sub_resource type="ImageTexture" id="7"]
 
 [sub_resource type="ImageTexture" id="8"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hkiyv"]
+bg_color = Color(0.2, 0.2, 0.2, 1)
 
 [node name="Material Modifier" type="Control"]
 anchor_right = 1.0
@@ -39,9 +41,9 @@ script = ExtResource( "7" )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-nameLabelPath = NodePath("VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/VBoxContainer/Name")
-previewAreaPath = NodePath("VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/Panel/TexturePreview")
-loadPath = NodePath("VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area/LoadPath")
+nameLabelPath = NodePath("")
+previewAreaPath = NodePath("")
+loadPath = NodePath("")
 
 [node name="FileDialog Mat" type="FileDialog" parent="."]
 title = "Open File(s)"
@@ -55,10 +57,9 @@ __meta__ = {
 }
 
 [node name="InspectorBG" type="Panel" parent="."]
-anchor_top = -0.015
 anchor_right = 1.0
 anchor_bottom = 0.671667
-offset_top = 40.0
+offset_top = 33.0
 size_flags_vertical = 3
 theme_override_styles/panel = ExtResource( "9" )
 script = null
@@ -97,135 +98,6 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="T2M Container" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer"]
-visible = false
-offset_right = 1012.0
-offset_bottom = 203.0
-script = null
-
-[node name="Path Area" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
-offset_right = 1012.0
-offset_bottom = 33.0
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
-offset_top = 3.0
-offset_right = 35.0
-offset_bottom = 29.0
-text = "Path"
-structured_text_bidi_override_options = []
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="LoadPath" type="LineEdit" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
-offset_left = 39.0
-offset_right = 984.0
-offset_bottom = 33.0
-size_flags_horizontal = 3
-text = "res://icon.png"
-structured_text_bidi_override_options = []
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="BrowseFiles" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area"]
-offset_left = 988.0
-offset_right = 1012.0
-offset_bottom = 33.0
-text = "..."
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Preview" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
-offset_top = 37.0
-offset_right = 1012.0
-offset_bottom = 66.0
-text = "Preview"
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Info Area" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
-offset_top = 70.0
-offset_right = 1012.0
-offset_bottom = 170.0
-script = null
-
-[node name="Panel" type="Panel" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
-offset_right = 100.0
-offset_bottom = 100.0
-rect_min_size = Vector2(100, 100)
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="TexturePreview" type="TextureRect" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/Panel"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-texture = ExtResource( "11" )
-expand = true
-stretch_mode = 6
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
-offset_left = 104.0
-offset_right = 1008.0
-offset_bottom = 100.0
-size_flags_horizontal = 3
-script = null
-
-[node name="NameLabel" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/VBoxContainer"]
-offset_right = 904.0
-offset_bottom = 26.0
-text = "Material Name:"
-structured_text_bidi_override_options = []
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Name" type="Label" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area/VBoxContainer"]
-offset_top = 30.0
-offset_right = 904.0
-offset_bottom = 53.0
-structured_text_bidi_override_options = []
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Info Area"]
-offset_left = 1012.0
-offset_right = 1012.0
-offset_bottom = 100.0
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Create" type="Button" parent="VBoxContainer/ScrollContainer/Main VContainer/T2M Container"]
-offset_top = 174.0
-offset_right = 1012.0
-offset_bottom = 203.0
-text = "Create Material"
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="MatModifier Container" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer"]
 offset_right = 319.0
 offset_bottom = 211.0
@@ -254,9 +126,11 @@ script = null
 offset_right = 311.0
 offset_bottom = 23.0
 rect_min_size = Vector2(0, 22)
-theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -266,7 +140,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Albedo"
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -305,6 +179,9 @@ offset_right = 137.0
 offset_bottom = 31.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_hover_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_pressed_color = Color(0.792157, 0.792157, 0.792157, 1)
 text = "Albedo"
 script = null
 
@@ -314,7 +191,7 @@ offset_right = 169.0
 offset_bottom = 31.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -337,9 +214,11 @@ offset_top = 54.0
 offset_right = 311.0
 offset_bottom = 77.0
 rect_min_size = Vector2(0, 22)
-theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -349,7 +228,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Metallic"
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -388,6 +267,9 @@ offset_right = 96.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_hover_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_pressed_color = Color(0.792157, 0.792157, 0.792157, 1)
 text = "Metallic"
 script = null
 
@@ -422,7 +304,7 @@ offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
 focus_mode = 0
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -454,6 +336,9 @@ offset_right = 96.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_hover_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_pressed_color = Color(0.792157, 0.792157, 0.792157, 1)
 text = "Specular"
 script = null
 
@@ -487,7 +372,7 @@ offset_left = 209.0
 offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -511,9 +396,11 @@ offset_right = 311.0
 offset_bottom = 170.0
 rect_min_size = Vector2(0, 22)
 focus_mode = 0
-theme_override_colors/icon_pressed_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
-theme_override_colors/font_pressed_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_colors/icon_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/icon_normal_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.694118, 0.694118, 0.694118, 1)
+theme_override_colors/font_pressed_color = Color(0.694118, 0.694118, 0.694118, 1)
 theme_override_styles/hover = ExtResource( "10" )
 theme_override_styles/pressed = ExtResource( "10" )
 theme_override_styles/focus = ExtResource( "10" )
@@ -523,7 +410,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Roughness"
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 align = 0
 script = ExtResource( "5" )
 __meta__ = {
@@ -562,6 +449,9 @@ offset_right = 112.0
 offset_bottom = 33.0
 rect_min_size = Vector2(90, 0)
 size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_hover_color = Color(0.792157, 0.792157, 0.792157, 1)
+theme_override_colors/font_pressed_color = Color(0.792157, 0.792157, 0.792157, 1)
 text = "Roughness"
 script = null
 
@@ -595,7 +485,7 @@ offset_left = 209.0
 offset_right = 237.0
 offset_bottom = 33.0
 rect_min_size = Vector2(22, 0)
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 flat = true
 script = ExtResource( "2" )
 __meta__ = {
@@ -613,19 +503,11 @@ step = 0.01
 value = 1.0
 script = null
 
-[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container"]
-visible = false
-theme_override_styles/panel = ExtResource( "9" )
-script = null
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="TextEdit" type="TextEdit" parent="."]
 anchor_top = 0.672
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -0.199982
+offset_top = -0.200043
 offset_bottom = -33.0
 hint_tooltip = "Examples:
 \"roughness=0\" (float)
@@ -637,6 +519,19 @@ hint_tooltip = "Examples:
 size_flags_vertical = 15
 caret_blink = true
 structured_text_bidi_override_options = []
+script = null
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InspectorBG2" type="Panel" parent="."]
+anchor_top = 0.672
+anchor_right = 1.0
+anchor_bottom = 0.672
+offset_top = -4.20004
+offset_bottom = -0.200043
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource( "StyleBoxFlat_hkiyv" )
 script = null
 __meta__ = {
 "_edit_use_anchors_": false
@@ -678,7 +573,7 @@ __meta__ = {
 offset_left = 291.0
 offset_right = 319.0
 offset_bottom = 33.0
-icon = SubResource( "ImageTexture_m2r7a" )
+icon = SubResource( "ImageTexture_c7lo6" )
 script = ExtResource( "2" )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -711,9 +606,6 @@ __meta__ = {
 }
 
 [connection signal="files_selected" from="FileDialog Mat" to="Material Path Area" method="_on_FileDialog_Mat_files_selected"]
-[connection signal="pressed" from="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Path Area/BrowseFiles" to="." method="_on_BrowseFiles_pressed"]
-[connection signal="pressed" from="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Preview" to="." method="_on_Preview_pressed"]
-[connection signal="pressed" from="VBoxContainer/ScrollContainer/Main VContainer/T2M Container/Create" to="." method="_on_Create_pressed"]
 [connection signal="toggled" from="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value/Albedo_CheckBox" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel" method="_on_Albedo_CheckBox_toggled"]
 [connection signal="pressed" from="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value/Color_Reset" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel" method="_on_Color_Reset_pressed"]
 [connection signal="color_changed" from="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel/VBoxContainer/Albedo Value/ColorPickerButton" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Albedo Panel" method="_on_ColorPickerButton_color_changed"]

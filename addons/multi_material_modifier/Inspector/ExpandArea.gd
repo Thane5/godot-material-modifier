@@ -15,8 +15,8 @@ func _ready():
 	set_button_icon(icon)
 	var ExpandArea = get_node(ExpandAreaPath)
 	ExpandArea.set_visible(true)
-#	var font = get_theme_font("default")
-#	set_button_font(font)
+	var font = get_theme_font('default')
+	#set_button_font(font)
 
 func _toggled(button_pressed):
 	if(button_pressed) == true:
