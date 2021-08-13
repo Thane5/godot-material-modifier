@@ -8,8 +8,16 @@ export(NodePath) var loadPath
 var currentResourcePath = "res://SomeMat1.material"
 var currentResource
 
-func _ready():
-	pass
+func _enter_tree():
+	var theme = load("res://addons/multi_material_modifier/Inspector/Editor.tres")
+	var style1 = load("res://addons/multi_material_modifier/Inspector/ExpandArea_header.tres")
+	var colorBG = get_color("dark_color_1", "Editor") 
+	var colorTest = Color(0.15,0.1725,0.2325,1)
+	theme.set_color("bg_color", "Panel/colors/Panel", colorTest)
+	theme.set_color("font_color", "Label", colorTest)
+	#style1.set_default_margin(MARGIN_TOP, -1)
+	style1.set_bg_color(Color(0.15,0.1725,0.2325,1))
+	print(style1.get_bg_color())
 
 
 func _on_BrowseFiles_pressed():
