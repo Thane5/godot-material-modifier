@@ -580,9 +580,9 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -70.5
+offset_left = -72.0
 offset_top = -33.0
-offset_right = 70.5
+offset_right = 72.0
 theme_override_constants/margin_top = 4
 script = null
 __meta__ = {
@@ -592,7 +592,7 @@ __meta__ = {
 
 [node name="Modify" type="Button" parent="MarginContainer"]
 offset_top = 4.0
-offset_right = 141.0
+offset_right = 144.0
 offset_bottom = 33.0
 text = "Modify Materials"
 script = null
