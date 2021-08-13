@@ -7,7 +7,7 @@ var active = false
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
+func _enter_tree():
 	albedoColor = get_node("VBoxContainer/Albedo Value/ColorPickerButton").get_pick_color()
 
 
