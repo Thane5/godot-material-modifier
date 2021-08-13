@@ -51,11 +51,17 @@ func _modify_materials():
 			changeCounter = changeCounter+1
 			
 		#	Apply parameters set through the command line
-		if get_node(textEditPath).text != null:
-			var textField = get_node(textEditPath)
-
-			var properties = textField.text.strip_edges().split("\n")
-			for property in properties:
+		var textField = get_node(textEditPath)
+		var typedProperties = textField.text.strip_edges().split("\n")
+		#print(typedProperties)
+		
+		#if typedProperties.is_empty() == true:
+		if textField.text.is_empty() == true:
+			#print("TextField is empty")
+			pass
+		else:
+			#print("TextField is not empty")
+			for property in typedProperties:
 				var propertyArray = (property.split("="))
 				var propertyName = propertyArray[0]
 				#var propertyValue = propertyArray[1]
@@ -144,7 +150,9 @@ func _modify_materials():
 					"rim_enabled": currentResource.rim_enabled = bool(propertyValue)
 					"rim_texture": currentResource.rim_texture = load(propertyValue)
 					"rim_tint": currentResource.rim_tint = float(propertyValue)
-					"roughness": currentResource.roughness = float(propertyValue)
+					"roughness": 
+						print(propertyValue)
+						currentResource.roughness = float(propertyValue)
 					"roughness_texture": currentResource.roughness_texture = load(propertyValue)
 					"roughness_texture_channel": currentResource.roughness_texture_channel = int(propertyValue)
 					"subsurf_scatter_enabled": currentResource.subsurf_scatter_enabled = bool(propertyValue)
@@ -173,12 +181,14 @@ func _modify_materials():
 					"vertex_color_use_as_albedo": currentResource.vertex_color_use_as_albedo = bool(propertyValue)
 
 
-					_: print("Invalid material parameter: ", propertyName)
-						
+					_: 
+						print("Invalid material parameter: ", propertyName)
+						changeCounter = changeCounter-1
 				changeCounter = changeCounter+1
 
 	#	Determine the amound of material changes done by 
 	#	dividing the tocal amount of modifications with the amount of materials
+
 	var fileCounter = currentResourcePath.size()
 	if fileCounter == 1:
 		print("Modified ", changeCounter/fileCounter, " properties on ", currentResourcePath[0].lstrip("res://"))
