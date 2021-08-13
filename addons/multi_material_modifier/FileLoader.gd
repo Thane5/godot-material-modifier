@@ -21,7 +21,7 @@ func _on_FileDialog_Mat_files_selected(paths):
 #		multiMode = false
 
 	else:
-		var lastSlash = paths[0].find_last("/")
+		var lastSlash = paths[0].rfind("/")
 		var text = paths[0].rstrip(paths[0].substr(lastSlash+1))
 
 		get_node("LoadPath").set_text(text + " [Multiple]")

@@ -10,13 +10,26 @@ extends Button
 
 
 # Called when the node enters the scene tree for the first time.
-func _ready():
+#func _enter_tree():
+#	icon = get_theme_icon('GuiTreeArrowDown', 'EditorIcons')
+#	set_button_icon(icon)
+#	var ExpandArea = get_node(ExpandAreaPath)
+#	ExpandArea.set_visible(true)
+	
+func _enter_tree():
 	icon = get_theme_icon('GuiTreeArrowDown', 'EditorIcons')
 	set_button_icon(icon)
 	var ExpandArea = get_node(ExpandAreaPath)
 	ExpandArea.set_visible(true)
-	var font = get_theme_font('default')
-	#set_button_font(font)
+	var textColor = get_theme_color("font_color", "Editor")
+	
+	self.add_theme_color_override("font_color", textColor)
+	self.add_theme_color_override("font_hover_color", textColor)
+	self.add_theme_color_override("font_pressed_color", textColor)
+	
+	self.add_theme_color_override("icon_color", textColor)
+	self.add_theme_color_override("icon_hover_color", textColor)	
+	self.add_theme_color_override("icon_pressed_color", textColor)
 
 func _toggled(button_pressed):
 	if(button_pressed) == true:
