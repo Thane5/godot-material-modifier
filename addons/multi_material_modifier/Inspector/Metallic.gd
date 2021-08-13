@@ -15,26 +15,17 @@ export(String) var valueName
 
 
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
-
 func _on_Metallic_toggled(button_pressed):
 	metallicActive = button_pressed
 
 
 func _on_Metallic_Slider_value_changed(value):
-	get_node("VBoxContainer/Metallic Value/Metallic_SpinBox").set_value(value)
+	get_node("Metallic Category/Metallic Value/Metallic_SpinBox").set_value(value)
 	metallicValue = value
 
 
 func _on_Metallic_SpinBox_value_changed(value):
-	get_node("VBoxContainer/Metallic Value/Metallic_Slider").set_value(value)
+	get_node("Metallic Category/Metallic Value/Metallic_Slider").set_value(value)
 	metallicValue = value
 
 
