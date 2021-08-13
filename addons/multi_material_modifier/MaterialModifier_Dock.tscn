@@ -547,10 +547,11 @@ fileDialogPath = NodePath("../FileDialog Mat")
 MatModifier = NodePath("../VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container")
 
 [node name="Label" type="Label" parent="Material Path Area"]
+visible = false
 offset_top = 3.0
-offset_right = 63.0
+offset_right = 69.0
 offset_bottom = 29.0
-text = "Material"
+text = "Selection"
 structured_text_bidi_override_options = []
 script = null
 __meta__ = {
@@ -558,12 +559,11 @@ __meta__ = {
 }
 
 [node name="LoadPath" type="LineEdit" parent="Material Path Area"]
-offset_left = 67.0
 offset_right = 287.0
 offset_bottom = 33.0
 size_flags_horizontal = 3
 structured_text_bidi_override_options = []
-placeholder_text = "res://"
+placeholder_text = "Select materials ..."
 script = null
 __meta__ = {
 "_edit_use_anchors_": false
