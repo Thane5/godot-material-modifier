@@ -1,13 +1,13 @@
 [gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://addons/multi_material_modifier/Inspector/Albedo.gd" type="Script" id=1]
-[ext_resource path="res://addons/multi_material_modifier/CustomIcon.gd" type="Script" id=2]
-[ext_resource path="res://addons/multi_material_modifier/Inspector/Metallic.gd" type="Script" id=3]
-[ext_resource path="res://addons/multi_material_modifier/FileLoader.gd" type="Script" id=4]
-[ext_resource path="res://addons/multi_material_modifier/Inspector/ExpandArea.gd" type="Script" id=5]
-[ext_resource path="res://addons/multi_material_modifier/Inspector/Roughness.gd" type="Script" id=6]
-[ext_resource path="res://addons/multi_material_modifier/MaterialWorker.gd" type="Script" id=8]
-[ext_resource path="res://addons/multi_material_modifier/Inspector/Dropdown_BG.tres" type="StyleBox" id=9]
+[ext_resource path="res://addons/material_modifier/MaterialWorker.gd" type="Script" id=1]
+[ext_resource path="res://addons/material_modifier/Inspector/Roughness.gd" type="Script" id=2]
+[ext_resource path="res://addons/material_modifier/CustomIcon.gd" type="Script" id=3]
+[ext_resource path="res://addons/material_modifier/FileLoader.gd" type="Script" id=4]
+[ext_resource path="res://addons/material_modifier/Inspector/Metallic.gd" type="Script" id=5]
+[ext_resource path="res://addons/material_modifier/Inspector/ExpandArea.gd" type="Script" id=6]
+[ext_resource path="res://addons/material_modifier/Inspector/Albedo.gd" type="Script" id=7]
+[ext_resource path="res://addons/material_modifier/Inspector/Dropdown_BG.tres" type="StyleBox" id=8]
 
 [sub_resource type="Image" id=11]
 data = {
@@ -92,7 +92,7 @@ __meta__ = {
 [node name="MatModifier Container" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/Main VContainer"]
 margin_right = 272.0
 margin_bottom = 216.0
-script = ExtResource( 8 )
+script = ExtResource( 1 )
 MaterialPathArea = NodePath("../../../../Material Path Area")
 textEditPath = NodePath("../../../../TextEdit")
 
@@ -116,6 +116,9 @@ margin_right = 264.0
 margin_bottom = 22.0
 rect_min_size = Vector2( 0, 22 )
 focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
 toggle_mode = true
 pressed = true
 action_mode = 0
@@ -123,7 +126,7 @@ text = "Albedo"
 icon = SubResource( 10 )
 flat = true
 align = 0
-script = ExtResource( 5 )
+script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -134,7 +137,7 @@ show_behind_parent = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
-custom_styles/panel = ExtResource( 9 )
+custom_styles/panel = ExtResource( 8 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -143,7 +146,7 @@ __meta__ = {
 margin_top = 22.0
 margin_right = 264.0
 margin_bottom = 60.0
-script = ExtResource( 1 )
+script = ExtResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -189,7 +192,7 @@ rect_min_size = Vector2( 22, 0 )
 focus_mode = 0
 icon = SubResource( 10 )
 flat = true
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -210,6 +213,9 @@ margin_right = 264.0
 margin_bottom = 82.0
 rect_min_size = Vector2( 0, 22 )
 focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
 toggle_mode = true
 pressed = true
 action_mode = 0
@@ -217,7 +223,7 @@ text = "Metallic"
 icon = SubResource( 10 )
 flat = true
 align = 0
-script = ExtResource( 5 )
+script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -228,7 +234,7 @@ show_behind_parent = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
-custom_styles/panel = ExtResource( 9 )
+custom_styles/panel = ExtResource( 8 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -237,7 +243,7 @@ __meta__ = {
 margin_top = 82.0
 margin_right = 264.0
 margin_bottom = 148.0
-script = ExtResource( 3 )
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -296,7 +302,7 @@ rect_min_size = Vector2( 22, 0 )
 focus_mode = 0
 icon = SubResource( 10 )
 flat = true
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -356,7 +362,7 @@ margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
 icon = SubResource( 10 )
 flat = true
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -377,6 +383,9 @@ margin_right = 264.0
 margin_bottom = 170.0
 rect_min_size = Vector2( 0, 22 )
 focus_mode = 0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
+custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
 toggle_mode = true
 pressed = true
 action_mode = 0
@@ -384,7 +393,7 @@ text = "Roughness"
 icon = SubResource( 10 )
 flat = true
 align = 0
-script = ExtResource( 5 )
+script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -395,7 +404,7 @@ show_behind_parent = true
 anchor_right = 1.0
 anchor_bottom = 1.0
 mouse_filter = 2
-custom_styles/panel = ExtResource( 9 )
+custom_styles/panel = ExtResource( 8 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -404,7 +413,7 @@ __meta__ = {
 margin_top = 170.0
 margin_right = 264.0
 margin_bottom = 208.0
-script = ExtResource( 6 )
+script = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -462,7 +471,7 @@ margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
 icon = SubResource( 10 )
 flat = true
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -531,7 +540,7 @@ margin_left = 244.0
 margin_right = 272.0
 margin_bottom = 24.0
 icon = SubResource( 10 )
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
