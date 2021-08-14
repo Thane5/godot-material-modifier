@@ -1,5 +1,7 @@
-# Godot Material Modifier (Godot 3.4.beta3)
+# Godot Material Modifier
 A Godot Editor GUI tool to modify (spatial-) material parameters on multiple materials at once.
+
+Compatible with Godot 3.4.beta3 (4.0 version available in seperate branch)
 
 ![image](https://i.imgur.com/ToNYRrh.png)
 ![image](https://i.imgur.com/X6DY50W.png)
