@@ -9,7 +9,7 @@
 [ext_resource path="res://addons/material_modifier/Inspector/Albedo.gd" type="Script" id=7]
 [ext_resource path="res://addons/material_modifier/Inspector/Dropdown_BG.tres" type="StyleBox" id=8]
 
-[sub_resource type="Image" id=11]
+[sub_resource type="Image" id=1]
 data = {
 "data": PoolByteArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ),
 "format": "LumAlpha8",
@@ -18,17 +18,17 @@ data = {
 "width": 16
 }
 
-[sub_resource type="ImageTexture" id=10]
+[sub_resource type="ImageTexture" id=2]
 flags = 4
 flags = 4
-image = SubResource( 11 )
+image = SubResource( 1 )
 size = Vector2( 16, 16 )
 
-[sub_resource type="ImageTexture" id=6]
+[sub_resource type="ImageTexture" id=3]
 
-[sub_resource type="ImageTexture" id=7]
+[sub_resource type="ImageTexture" id=4]
 
-[sub_resource type="ImageTexture" id=8]
+[sub_resource type="ImageTexture" id=5]
 
 [node name="Material Modifier" type="Control"]
 anchor_right = 1.0
@@ -123,7 +123,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Albedo"
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 align = 0
 script = ExtResource( 6 )
@@ -190,7 +190,7 @@ margin_right = 139.0
 margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
 focus_mode = 0
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 script = ExtResource( 3 )
 __meta__ = {
@@ -220,7 +220,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Metallic"
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 align = 0
 script = ExtResource( 6 )
@@ -300,7 +300,7 @@ margin_right = 188.0
 margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
 focus_mode = 0
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 script = ExtResource( 3 )
 __meta__ = {
@@ -312,7 +312,7 @@ customIcon = "Reload"
 margin_left = 192.0
 margin_right = 250.0
 margin_bottom = 24.0
-custom_icons/updown = SubResource( 6 )
+custom_icons/updown = SubResource( 3 )
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -360,7 +360,7 @@ margin_left = 160.0
 margin_right = 188.0
 margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 script = ExtResource( 3 )
 __meta__ = {
@@ -372,7 +372,7 @@ customIcon = "Reload"
 margin_left = 192.0
 margin_right = 250.0
 margin_bottom = 24.0
-custom_icons/updown = SubResource( 7 )
+custom_icons/updown = SubResource( 4 )
 max_value = 1.0
 step = 0.01
 value = 0.5
@@ -390,7 +390,7 @@ toggle_mode = true
 pressed = true
 action_mode = 0
 text = "Roughness"
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 align = 0
 script = ExtResource( 6 )
@@ -469,7 +469,7 @@ margin_left = 160.0
 margin_right = 188.0
 margin_bottom = 24.0
 rect_min_size = Vector2( 22, 0 )
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 flat = true
 script = ExtResource( 3 )
 __meta__ = {
@@ -481,7 +481,7 @@ customIcon = "Reload"
 margin_left = 192.0
 margin_right = 250.0
 margin_bottom = 24.0
-custom_icons/updown = SubResource( 8 )
+custom_icons/updown = SubResource( 5 )
 max_value = 1.0
 step = 0.01
 value = 1.0
@@ -539,7 +539,7 @@ __meta__ = {
 margin_left = 244.0
 margin_right = 272.0
 margin_bottom = 24.0
-icon = SubResource( 10 )
+icon = SubResource( 2 )
 script = ExtResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -587,5 +587,5 @@ __meta__ = {
 [connection signal="value_changed" from="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel/Roughness Category/Roughness Value/Roughness_SpinBox" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container/MaterialProperties/VBoxContainer/Roughness Panel" method="_on_Roughness_SpinBox_value_changed"]
 [connection signal="text_changed" from="Material Path Area/LoadPath" to="Material Path Area" method="_on_LoadPath_text_changed"]
 [connection signal="pressed" from="Material Path Area/OpenButton" to="Material Path Area" method="_on_OpenButton_pressed"]
-[connection signal="pressed" from="MarginContainer/Modify" to="." method="_on_Modify_pressed"]
 [connection signal="pressed" from="MarginContainer/Modify" to="VBoxContainer/ScrollContainer/Main VContainer/MatModifier Container" method="_on_Modify_pressed"]
+[connection signal="pressed" from="MarginContainer/Modify" to="." method="_on_Modify_pressed"]
