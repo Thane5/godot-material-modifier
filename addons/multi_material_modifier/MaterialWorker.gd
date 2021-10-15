@@ -2,9 +2,9 @@
 extends VBoxContainer
 
 
-const ALBEDO_PANEL_PATH = "MaterialProperties/VBoxContainer/Albedo Panel"
-const METALLIC_PANEL_PATH = "MaterialProperties/VBoxContainer/Metallic Panel"
-const ROUGHNESS_PANEL_PATH = "MaterialProperties/VBoxContainer/Roughness Panel"
+const ALBEDO_PANEL_PATH = "VSplitContainer/InspectorBG/ScrollContainer/MaterialProperties/VBoxContainer/Albedo Panel"
+const METALLIC_PANEL_PATH = "VSplitContainer/InspectorBG/ScrollContainer/MaterialProperties/VBoxContainer/Metallic Panel"
+const ROUGHNESS_PANEL_PATH = "VSplitContainer/InspectorBG/ScrollContainer/MaterialProperties/VBoxContainer/Roughness Panel"
 @export var MaterialPathArea: NodePath
 @export var textEditPath: NodePath
 
