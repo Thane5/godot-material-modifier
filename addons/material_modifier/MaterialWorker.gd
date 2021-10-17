@@ -53,10 +53,11 @@ func _modify_materials():
 		var textField = get_node(textEditPath)
 		var typedProperties = textField.text.strip_edges().split("\n")
 		#	Apply parameters set through the command line
-		if textField.text == null:
+		if textField.text.empty() == true:
 			#print("TextField is empty")
 			pass
 		else:	
+			#print("Text field is not empty")
 			var properties = textField.text.strip_edges().split("\n")
 			for property in typedProperties:
 				var propertyArray = (property.split("="))

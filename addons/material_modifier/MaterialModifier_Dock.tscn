@@ -84,7 +84,10 @@ __meta__ = {
 [node name="LoadPath" type="LineEdit" parent="VBoxContainer/Material Path Area"]
 margin_right = 240.0
 margin_bottom = 24.0
+focus_mode = 0
 size_flags_horizontal = 3
+editable = false
+selecting_enabled = false
 placeholder_text = "Select materials ..."
 __meta__ = {
 "_edit_use_anchors_": false
