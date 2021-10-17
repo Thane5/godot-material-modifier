@@ -33,5 +33,6 @@ func _on_Roughness_SpinBox_value_changed(value):
 
 #	Restore defaults
 func _on_Roughness_Reset_pressed():
+	roughness = ROUGHNESS_DEFAULT
 	get_node("VBoxContainer/Roughness Value/Roughness_Slider").set_value(ROUGHNESS_DEFAULT)
 	get_node("VBoxContainer/Roughness Value/Roughness_SpinBox").set_value(ROUGHNESS_DEFAULT)

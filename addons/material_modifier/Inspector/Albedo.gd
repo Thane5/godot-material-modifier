@@ -20,5 +20,6 @@ func _on_ColorPickerButton_color_changed(color):
 
 #	Restore defaults
 func _on_Color_Reset_pressed():
+	albedoColor = ALBEDO_DEFAULT
 	get_node("VBoxContainer/Albedo Value/ColorPickerButton").set_pick_color(ALBEDO_DEFAULT)
 
