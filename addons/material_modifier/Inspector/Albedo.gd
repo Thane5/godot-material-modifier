@@ -1,6 +1,8 @@
 tool
 extends PanelContainer
 
+const ALBEDO_DEFAULT = Color(1,1,1,1)
+
 var albedoColor 
 var active = false
 
@@ -23,6 +25,6 @@ func _on_ColorPickerButton_color_changed(color):
 
 
 func _on_Color_Reset_pressed():
-	albedoColor = Color(1,1,1,1)
+	albedoColor = ALBEDO_DEFAULT
 	get_node("Albedo Category/Albedo Value/ColorPickerButton").set_pick_color(albedoColor)
 
