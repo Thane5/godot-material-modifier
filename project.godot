@@ -11,12 +11,12 @@ config_version=4
 [application]
 
 config/name="Material Modifier"
-run/main_scene="res://addons/multi_material_modifier/MaterialModifier_Dock.tscn"
+run/main_scene="res://addons/material_modifier/MaterialModifier_Dock.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/multi_material_modifier/plugin.cfg")
+enabled=PackedStringArray("res://addons/material_modifier/plugin.cfg")
 
 [physics]
 

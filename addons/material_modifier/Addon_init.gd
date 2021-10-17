@@ -4,7 +4,7 @@ extends EditorPlugin
 var dock
 
 func _enter_tree():
-	dock = preload("res://addons/multi_material_modifier/MaterialModifier_Dock.tscn").instantiate()
+	dock = preload("res://addons/material_modifier/MaterialModifier_Dock.tscn").instantiate()
 	add_control_to_dock(DOCK_SLOT_RIGHT_BL, dock)
 	
 
