@@ -43,11 +43,11 @@ func _on_Specular_SpinBox_value_changed(value):
 #	Restore defaults on metallic
 func _on_Metallic_Reset_pressed():
 	metallicValue = METALLIC_DEFAULT
-	specularValue = SPECULAR_DEFAULT
 	get_node("VBoxContainer/Metallic Value/Metallic_Slider").set_value(METALLIC_DEFAULT)
 	get_node("VBoxContainer/Metallic Value/Metallic_SpinBox").set_value(METALLIC_DEFAULT)
 
 #	Restore defaults on specular
 func _on_Specular_Reset_pressed():
+	specularValue = SPECULAR_DEFAULT
 	get_node("VBoxContainer/Specular Value/Specular_Slider").set_value(SPECULAR_DEFAULT)
 	get_node("VBoxContainer/Specular Value/Specular_SpinBox").set_value(SPECULAR_DEFAULT)
