@@ -1,7 +1,7 @@
 @tool
 extends PanelContainer
 
-const METALLIC_DEFAULT = 1
+const METALLIC_DEFAULT = 0
 const SPECULAR_DEFAULT = 0.5
 
 var metallicValue = METALLIC_DEFAULT
@@ -42,6 +42,8 @@ func _on_Specular_SpinBox_value_changed(value):
 
 #	Restore defaults on metallic
 func _on_Metallic_Reset_pressed():
+	metallicValue = METALLIC_DEFAULT
+	specularValue = SPECULAR_DEFAULT
 	get_node("VBoxContainer/Metallic Value/Metallic_Slider").set_value(METALLIC_DEFAULT)
 	get_node("VBoxContainer/Metallic Value/Metallic_SpinBox").set_value(METALLIC_DEFAULT)
 
