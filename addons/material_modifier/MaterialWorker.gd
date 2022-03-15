@@ -19,7 +19,7 @@ var changeCounter = 0
 
 
 func _on_Modify_pressed():
-	if typeof(currentResourcePath) == TYPE_STRING_ARRAY:
+	if typeof(currentResourcePath) == TYPE_PACKED_STRING_ARRAY:
 		_modify_materials()
 	else:
 		print("No material selected")
