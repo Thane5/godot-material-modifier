@@ -29,7 +29,7 @@ func _on_FileDialog_Mat_files_selected(paths):
 		var text = paths[0].rstrip(paths[0].substr(lastSlash+1))
 		
 #		get_node("LoadPath").set_text(text + " [Multiple]")
-		get_node("LoadPath").set_text(text + " [" + var2str(paths.size()) + " Selected]")
+		get_node("LoadPath").set_text(text + " [" + var_to_str(paths.size()) + " Selected]")
 
 
 ##	In case the user wants to manually paste in a path
