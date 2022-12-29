@@ -1,5 +1,5 @@
 # Godot Material Modifier
-A Godot Editor GUI tool to modify parameters of multiple StandardMaterial3D assets at once.
+A Godot editor addon to batch-modify material assets.
 
 Compatible with Godot 4.0 pre-alpha (Stable version available in main branch)
 
