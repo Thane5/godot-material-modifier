@@ -1,7 +1,7 @@
 # Godot Material Modifier
 A Godot editor addon to batch-modify material assets.
 
-Compatible with Godot 3.4.beta3 (4.0 version available in seperate branch)
+Compatible with Godot 4 (Godot 3.5 version available in seperate branch)
 
 ![image](https://i.imgur.com/ToNYRrh.png)
 ![image](https://i.imgur.com/X6DY50W.png)
